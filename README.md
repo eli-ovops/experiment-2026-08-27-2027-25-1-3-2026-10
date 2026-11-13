@@ -1,37 +1,26 @@
-# experiment 2026 08 27 2027 25 1 3 2026 10
+# Restarting a Thesis Project
 
-历史探索与实验资料，当前文件主要涉及：01-已恢复聊天原文、02-恢复范围与缺口、00-使用说明。
+**A thesis-planning handoff with requirements, source organization and a next-session starting point.**
 
-GitHub：[eli-ovops/experiment-2026-08-27-2027-25-1-3-2026-10](https://github.com/eli-ovops/experiment-2026-08-27-2027-25-1-3-2026-10)
+## What you will find
 
-## 内容
+A bounded experiment and its retained artifacts. The useful part is the concrete task and what was actually recorded, including incomplete checks and old assumptions. Treat dated observations as historical evidence, not a current service status.
 
-本次公开副本包含 9 个来源文件。
+## Start here
 
-- [`work/inspect_workbook.mjs`](work/inspect_workbook.mjs)
-- [`论文项目交接包-2026-09-27/00-使用说明.md`](%E8%AE%BA%E6%96%87%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%8E%A5%E5%8C%85-2026-09-27/00-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
-- [`论文项目交接包-2026-09-27/01-已知情况与学校要求.md`](%E8%AE%BA%E6%96%87%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%8E%A5%E5%8C%85-2026-09-27/01-%E5%B7%B2%E7%9F%A5%E6%83%85%E5%86%B5%E4%B8%8E%E5%AD%A6%E6%A0%A1%E8%A6%81%E6%B1%82.md)
-- [`论文项目交接包-2026-09-27/02-新项目启动Prompt.md`](%E8%AE%BA%E6%96%87%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%8E%A5%E5%8C%85-2026-09-27/02-%E6%96%B0%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8Prompt.md)
-- [`论文项目交接包-2026-09-27/SHA256SUMS.txt`](%E8%AE%BA%E6%96%87%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%8E%A5%E5%8C%85-2026-09-27/SHA256SUMS.txt)
-- [`论文项目交接包-2026-09-27/打包与校验.py`](%E8%AE%BA%E6%96%87%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%8E%A5%E5%8C%85-2026-09-27/%E6%89%93%E5%8C%85%E4%B8%8E%E6%A0%A1%E9%AA%8C.py)
-- [`outputs/聊天恢复-20261009/01-已恢复聊天原文.md`](outputs/%E8%81%8A%E5%A4%A9%E6%81%A2%E5%A4%8D-20261009/01-%E5%B7%B2%E6%81%A2%E5%A4%8D%E8%81%8A%E5%A4%A9%E5%8E%9F%E6%96%87.md)
-- [`outputs/聊天恢复-20261009/02-恢复范围与缺口.md`](outputs/%E8%81%8A%E5%A4%A9%E6%81%A2%E5%A4%8D-20261009/02-%E6%81%A2%E5%A4%8D%E8%8C%83%E5%9B%B4%E4%B8%8E%E7%BC%BA%E5%8F%A3.md)
-- [`outputs/聊天恢复-20261009/03-聊天原文与来源索引.json`](outputs/%E8%81%8A%E5%A4%A9%E6%81%A2%E5%A4%8D-20261009/03-%E8%81%8A%E5%A4%A9%E5%8E%9F%E6%96%87%E4%B8%8E%E6%9D%A5%E6%BA%90%E7%B4%A2%E5%BC%95.json)
+- [Working note 1](%E8%AE%BA%E6%96%87%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%8E%A5%E5%8C%85-2026-09-27/00-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+- [Working note 2](%E8%AE%BA%E6%96%87%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%8E%A5%E5%8C%85-2026-09-27/01-%E5%B7%B2%E7%9F%A5%E6%83%85%E5%86%B5%E4%B8%8E%E5%AD%A6%E6%A0%A1%E8%A6%81%E6%B1%82.md)
+- [Working note 3](%E8%AE%BA%E6%96%87%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%8E%A5%E5%8C%85-2026-09-27/02-%E6%96%B0%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8Prompt.md)
+- [Complete source inventory](SOURCE_MANIFEST.csv)
 
-文件类型：.md（5）、.json（1）、.mjs（1）、.txt（1）、.py（1）。
+## Current scope
 
-## 阅读方式
+This snapshot includes 9 source files. Original media, databases, private account records and other unprocessed attachments were not included in this text-and-source release.
 
-按主题说明、研究记录和相关程序阅读；保留当时的探索状态与已知缺口。
+This update improves the English presentation. It does not rerun the project, install a skill, reproduce an old test, or establish production readiness. Some original working documents retain their source language; machine-specific paths or setup assumptions may still need adaptation.
 
-## 来源与许可
+## Sources and license
 
-本仓库新增介绍及用户原创部分按 MIT 许可公开；第三方材料按其各自许可证和署名使用，不以本许可证重新授权第三方内容。
+The owner's original contributions and new presentation notes follow the [retained license](LICENSE). Third-party material keeps its own licenses and attribution; this does not relicense it.
 
-## 当前状态与验证边界
-
-- 本次完成公开副本整理和静态检查；没有运行来源代码、构建 App、安装 Skill 或启动服务。
-- 项目可能处于原型、实验或研究阶段；没有将其表述为生产交付、客户验收或经过验证的投资收益。
-- 图片、视频、数据库、真实账户记录及未确认可公开的附件没有随本次文本/源码副本上传。
-- 部分相对链接、运行依赖或素材可能仍需补齐；原始快照中的静态引用缺口数为 0，该数字不是运行失败数。
-- [本次来源文件清单](SOURCE_MANIFEST.csv)
+[Source paths and hashes](SOURCE_MANIFEST.csv)
